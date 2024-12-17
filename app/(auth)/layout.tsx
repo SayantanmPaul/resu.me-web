@@ -26,11 +26,11 @@ export default function AuthLayout({
             className="h-full w-full object-contain"
             draggable="false"
             layout="responsive"
-            priority
+            loading="lazy"
           />
         </div>
         <p className="hidden text-center font-brand font-semibold text-zinc-700 lg:block lg:text-3xl">
-          Build your professional <br />
+          Build your professional <br /> 
           resume in a matter of minutes.
         </p>
       </section>

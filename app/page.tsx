@@ -14,8 +14,8 @@ export default function Home() {
             </h1>
           </div>
           <h3 className="text-white font-brand lg:text-4xl text-2xl font-bold antialiased tracking-normal">
-            Create your most <br />
-            meaningful work profile.
+            Build your professional <br />
+            resume in a matter of minutes.
           </h3>
         </div>
       </div>

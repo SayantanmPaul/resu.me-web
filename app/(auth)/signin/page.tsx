@@ -9,7 +9,7 @@ const SignInPage = () => {
     <div className="flex w-full max-w-[340px] flex-col gap-6">
       <BrandLogo className="w-12 h-12" />
       <div className="flex flex-col">
-        <h2 className="font-brand text-[28px] font-semibold tracking-normal text-zinc-950 antialiased">
+        <h2 className="font-brand text-[28px] font-bold tracking-normal text-zinc-950 antialiased">
           Welcome back!
         </h2>
         <p className="space-y-2 font-body text-xs font-semibold text-muted-foreground">

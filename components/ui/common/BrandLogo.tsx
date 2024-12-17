@@ -23,7 +23,7 @@ const BrandLogo = ({ iconOnly, theme, className }: BrandLogoProps) => {
               alt="hackmates"
               className="h-full w-full object-cover select-none"
               draggable={false}
-              loading="lazy"
+              priority
             />
           ) : theme === "dark" ? (
             <Image
@@ -31,7 +31,7 @@ const BrandLogo = ({ iconOnly, theme, className }: BrandLogoProps) => {
               alt="hackmates"
               className="h-full w-full object-cover select-none"
               draggable={false}
-              loading="lazy"
+              priority
             />
           ) : (
             <Image
@@ -39,7 +39,7 @@ const BrandLogo = ({ iconOnly, theme, className }: BrandLogoProps) => {
               alt="hackmates"
               className="h-full w-full object-cover select-none"
               draggable={false}
-              loading="lazy"
+              priority
             />
           )
         ) : (
@@ -48,7 +48,7 @@ const BrandLogo = ({ iconOnly, theme, className }: BrandLogoProps) => {
             alt="hackmates"
             className="h-full w-full object-cover select-none"
             draggable={false}
-            loading="lazy"
+            priority
           />
         )}
       </AspectRatio>

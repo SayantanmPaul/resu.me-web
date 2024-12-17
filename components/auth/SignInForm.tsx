@@ -88,7 +88,7 @@ const SignInForm = () => {
                     onCheckedChange={field.onChange}
                   />
                 </FormControl>
-                <label className="text-xs font-semibold text-primary">
+                <label className="text-xs text-primary">
                   Remember me for 30 days
                 </label>
               </div>
