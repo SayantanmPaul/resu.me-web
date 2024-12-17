@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex flex-col gap-2 ">
           <div className="flex flex-row gap-2 items-center">
             <span className="w-6 h-6">
-              <BrandLogo />
+              <BrandLogo iconOnly />
             </span>
             <h1 className="text-white font-bold font-brand text-xl tracking-normal">
               Resu.me

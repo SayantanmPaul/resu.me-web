@@ -85,8 +85,8 @@ const config: Config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        brand: ["Outfit", "sans-serif"],
-        body: ["Roboto", "sans-serif"],
+        brand: ["Inter", "sans-serif"],
+        body: ["Roboto Condensed", "sans-serif"],
       },
     },
   },
