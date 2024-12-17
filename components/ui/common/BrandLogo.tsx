@@ -9,43 +9,50 @@ import { AspectRatio } from "../aspect-ratio";
 interface BrandLogoProps {
   iconOnly?: boolean;
   theme?: "light" | "dark";
+  className?: string;
 }
 
-const BrandLogo = ({ iconOnly, theme }: BrandLogoProps) => {
+const BrandLogo = ({ iconOnly, theme, className }: BrandLogoProps) => {
   return (
-    <AspectRatio ratio={1 / 1} className="">
-      {iconOnly ? (
-        theme === "light" ? (
-          <Image
-            src={BrandIconOnlyLight}
-            alt="hackmates"
-            fill
-            className="h-full w-full object-cover"
-          />
-        ) : theme === "dark" ? (
-          <Image
-            src={BrandIconOnlyDark}
-            alt="hackmates"
-            fill
-            className="h-full w-full object-cover"
-          />
+    <span className={className}>
+      <AspectRatio ratio={1 / 1}>
+        {iconOnly ? (
+          theme === "light" ? (
+            <Image
+              src={BrandIconOnlyLight}
+              alt="hackmates"
+              className="h-full w-full object-cover select-none"
+              draggable={false}
+              loading="lazy"
+            />
+          ) : theme === "dark" ? (
+            <Image
+              src={BrandIconOnlyDark}
+              alt="hackmates"
+              className="h-full w-full object-cover select-none"
+              draggable={false}
+              loading="lazy"
+            />
+          ) : (
+            <Image
+              src={BrandIconOnly}
+              alt="hackmates"
+              className="h-full w-full object-cover select-none"
+              draggable={false}
+              loading="lazy"
+            />
+          )
         ) : (
           <Image
-            src={BrandIconOnly}
+            src={BrandDefault}
             alt="hackmates"
-            fill
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover select-none"
+            draggable={false}
+            loading="lazy"
           />
-        )
-      ) : (
-        <Image
-          src={BrandDefault}
-          alt="hackmates"
-          fill
-          className="h-full w-full object-cover"
-        />
-      )}
-    </AspectRatio>
+        )}
+      </AspectRatio>
+    </span>
   );
 };
 
