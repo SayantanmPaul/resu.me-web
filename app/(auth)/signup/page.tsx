@@ -8,8 +8,8 @@ import BrandLogo from "@/components/ui/common/BrandLogo";
 const SignUpPage = () => {
   return (
     <div className="flex w-full max-w-[340px] flex-col gap-6">
+      <BrandLogo className="w-12 h-12" />
       <div className="flex flex-col">
-        <BrandLogo className="w-12 h-12"/>
         <h2 className="font-brand text-[28px] font-bold tracking-normal text-zinc-950 antialiased">
           Start building today!
         </h2>
