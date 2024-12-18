@@ -29,8 +29,8 @@ export default function AuthLayout({
             loading="lazy"
           />
         </div>
-        <p className="hidden text-center font-brand font-semibold text-zinc-700 lg:block lg:text-3xl">
-          Build your professional <br /> 
+        <p className="hidden text-center font-brand font-bold text-zinc-700 lg:block lg:text-3xl">
+          Build your professional <br />
           resume in a matter of minutes.
         </p>
       </section>

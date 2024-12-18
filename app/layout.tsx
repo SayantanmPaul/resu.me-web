@@ -6,7 +6,7 @@ const baseFont = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Resu.me",
-  description: "Create your most meaningful work profile.",
+  description: "Build your professional resume in a matter of minutes",
 };
 
 export default function RootLayout({
